@@ -1,0 +1,40 @@
+.titulo-logo {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 40px;
+}
+
+.titulo-logo h1 {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+}
+// IMAGENES DE GLH//
+
+.titulo-logo img {
+    position:relative;
+    animation-name: desplazarse;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    animation-direction: alternate-reverse;
+    
+}
+
+@keyframes desplazarse{
+    0%{
+        left: 0%;
+        
+    }
+    50%{
+
+    }
+    100%{
+        left: 73.5%;
+        
+    }
+
+}
+
+

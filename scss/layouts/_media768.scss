@@ -1,0 +1,26 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .titulo-logo img {
+        position:relative;
+        animation-name: desplazarse;
+        animation-duration: 2s;
+        animation-iteration-count: 3;
+        animation-direction: alternate-reverse;
+        
+    }
+    
+    @keyframes desplazarse{
+            0%{
+            left: 0;
+            }
+        
+        
+        100%{
+            left: 53%;
+            
+        }
+        
+        
+    
+    }
+
+}
